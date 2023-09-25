@@ -1,0 +1,83 @@
+/* Body Styles */
+body {
+    background-color: blueviolet;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+/* Hero Section Styles */
+.hero {
+    background-image: url('https://images.pexels.com/photos/3785931/pexels-photo-3785931.jpeg'); /* Replace with your background image URL */
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    max-width: 600px;
+}
+
+/* Call to Action Button */
+.cta-button {
+    background-color: #FFD700;
+    color: #36454F;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #FFC000;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #36454F;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-text {
+    font-size: 1.2rem;
+}
+
+/* Add additional sections and styles as needed */

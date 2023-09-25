@@ -1,0 +1,52 @@
+/* #issuetrackerfooter Styles */
+#issuetrackerfooter {
+    width: 100%;
+    background-color: #36454F;
+    color: #FFFFFF;
+    padding: 20px 0;
+    text-align: center;
+    position: relative; /* For positioning child elements */
+}
+
+/* Footer Container for Centering Content */
+.footer-container {
+    max-width: 1200px; /* Set a maximum width for content */
+    margin: 0 auto; /* Center the content horizontally */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content vertically */
+    justify-content: center;
+    position: relative;
+}
+
+/* Footer Content Styles (Adjust as needed) */
+.footer-text {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-link {
+    color: #FFD700; /* Use a distinct color for links */
+    text-decoration: none;
+    transition: color 0.3s; /* Add a smooth color transition for links */
+}
+
+.footer-link:hover {
+    color: #FFFFFF; /* Change link color on hover */
+}
+
+.footer-social-icons {
+    margin-top: 20px;
+}
+
+/* Social Icons (Font Awesome icons used in this example) */
+.social-icon {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #FFFFFF;
+    transition: color 0.3s; /* Add a smooth color transition for icons */
+}
+
+.social-icon:hover {
+    color: #FFD700; /* Change icon color on hover */
+}

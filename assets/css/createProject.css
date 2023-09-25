@@ -1,0 +1,26 @@
+/* .createProjectSection Styles */
+.createProjectSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #818589;
+    padding: 25px 0;
+    border-bottom: 1px solid #60666D; /* Add a subtle border at the bottom */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+/* .createProjectForm Styles */
+.createProjectForm {
+    min-width: 500px;
+    background-color: #FFFFFF; /* Set a background color for the form */
+    padding: 20px;
+    border-radius: 8px; /* Add rounded corners to the form */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow to the form */
+}
+
+/* Add media queries for responsive design (optional) */
+@media (max-width: 768px) {
+    .createProjectForm {
+        min-width: auto; /* Remove the minimum width for smaller screens */
+    }
+}

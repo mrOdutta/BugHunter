@@ -1,0 +1,40 @@
+/* .navHeader Styles */
+.navHeader {
+    width: 100vw;
+    margin: 0;
+    background-color: #bd1edd;
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+/* .headerSpan Styles */
+.headerSpan {
+    margin: 0;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 18px; /* Increase font size for better readability */
+    transition: color 0.3s; /* Add a smooth color transition */
+}
+
+/* Hover and Active Styles for .headerSpan */
+.headerSpan:hover {
+    color: #FFD700; /* Change text color on hover to a different color (e.g., gold) */
+}
+
+.headerSpan:active {
+    transform: scale(1.1); /* Add a scaling effect on click */
+}
+
+/* Add media queries for responsive design (optional) */
+@media (max-width: 768px) {
+    .navHeader {
+        padding: 10px 20px; /* Adjust padding for smaller screens */
+    }
+    .headerSpan {
+        font-size: 16px; /* Reduce font size for smaller screens */
+    }
+}
